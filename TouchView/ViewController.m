@@ -27,6 +27,8 @@
     
     [self.view addSubview:self.anyWhereView];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    _anyWhereView.backImageView.image = [UIImage imageNamed:@"AD_GO"];
 }
 
 
