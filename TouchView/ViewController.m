@@ -30,7 +30,7 @@
     if (!_anyWhereView) {
         _anyWhereView = [[AnyWhereView alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
         _anyWhereView.backgroundColor = [UIColor yellowColor];
-//        _anyWhereView.layer.cornerRadius = 25.0f;
+        _anyWhereView.layer.cornerRadius = 25.0f;
         
         __weak ViewController *weakself = self;
         _anyWhereView.tapAction = ^(void){
